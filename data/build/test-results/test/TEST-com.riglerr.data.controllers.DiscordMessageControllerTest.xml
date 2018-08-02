@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.riglerr.data.controllers.DiscordMessageControllerTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2018-08-01T14:56:05" hostname="rob-dev" time="0.036">
+  <properties/>
+  <testcase name="shouldAllowSingleModuleAsParameter()" classname="com.riglerr.data.controllers.DiscordMessageControllerTest" time="0.02"/>
+  <testcase name="shouldRejectModulesWithEmptyPrefix()" classname="com.riglerr.data.controllers.DiscordMessageControllerTest" time="0.001"/>
+  <testcase name="shouldRejectModulesWithNullPrefix()" classname="com.riglerr.data.controllers.DiscordMessageControllerTest" time="0.0"/>
+  <testcase name="shouldAllowMultipleModulesAsParameters()" classname="com.riglerr.data.controllers.DiscordMessageControllerTest" time="0.003"/>
+  <testcase name="shouldNotExecuteIfNoMatchingModules()" classname="com.riglerr.data.controllers.DiscordMessageControllerTest" time="0.002"/>
+  <testcase name="shouldRejectModulesWithEmptyIdentifier()" classname="com.riglerr.data.controllers.DiscordMessageControllerTest" time="0.001"/>
+  <testcase name="shouldRejectModulesWithNullIdentifier()" classname="com.riglerr.data.controllers.DiscordMessageControllerTest" time="0.001"/>
+  <testcase name="shouldRejectDuplicateModules()" classname="com.riglerr.data.controllers.DiscordMessageControllerTest" time="0.001"/>
+  <testcase name="shouldExecuteMatchingModule()" classname="com.riglerr.data.controllers.DiscordMessageControllerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

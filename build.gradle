@@ -1,0 +1,26 @@
+group 'com.riglerr.raidleader'
+version '1.0-SNAPSHOT'
+
+subprojects {
+    apply plugin: 'java'
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        test.useJUnitPlatform()
+        testCompile "org.mockito:mockito-core:2.+"
+        testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:5.2.0"
+        testImplementation "org.junit.jupiter:junit-jupiter-api:5.2.0"
+    }
+
+    test {
+      testLogging {
+        afterSuite { desc, result ->
+          if (!desc.parent) { // will match the outermost suite
+            println "Results: ${result.resultType} (${result.testCount} tests, ${result.successfulTestCount} successes, ${result.failedTestCount} failures, ${result.skippedTestCount} skipped)"
+          }
+        }
+      }
+    }
+}
+
