@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.riglerr.domain.usecases.CreateRaidAlertUseCaseTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-08-01T14:56:06" hostname="rob-dev" time="0.039">
+<testsuite name="com.riglerr.domain.usecases.CreateRaidAlertUseCaseTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-08-02T13:04:16" hostname="rob-XPS-13-9360" time="0.051">
   <properties/>
-  <testcase name="successfullySendsSuccessMessage()" classname="com.riglerr.domain.usecases.CreateRaidAlertUseCaseTests" time="0.037"/>
+  <testcase name="successfullySendsSuccessMessage()" classname="com.riglerr.domain.usecases.CreateRaidAlertUseCaseTests" time="0.049"/>
   <testcase name="successfullyParsesMessageAndAddsToRepository()" classname="com.riglerr.domain.usecases.CreateRaidAlertUseCaseTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
