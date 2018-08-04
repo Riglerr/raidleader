@@ -6,6 +6,6 @@ version '1.0-SNAPSHOT'
 
 
 dependencies {
-    compile project(':domain')
+    compile project(':data')
     compile 'net.dv8tion:JDA:3.7.1_387'
 }
