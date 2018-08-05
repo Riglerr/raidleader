@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.riglerr.domain.util.AlertMessageParserTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2018-08-02T14:12:39" hostname="rob-XPS-13-9360" time="0.027">
+<testsuite name="com.riglerr.domain.util.AlertMessageParserTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2018-08-05T12:09:11" hostname="rob-dev" time="0.022">
   <properties/>
   <testcase name="parsesSingleMessageArgument()" classname="com.riglerr.domain.util.AlertMessageParserTests" time="0.001"/>
-  <testcase name="parsesIntervalCorrectly()" classname="com.riglerr.domain.util.AlertMessageParserTests" time="0.0"/>
+  <testcase name="parsesIntervalCorrectly()" classname="com.riglerr.domain.util.AlertMessageParserTests" time="0.001"/>
   <testcase name="throwsExceptionIfMessageIsNullOrEmpty()" classname="com.riglerr.domain.util.AlertMessageParserTests" time="0.002"/>
   <testcase name="throwsExceptionIfIntervalImproperlyFormatted()" classname="com.riglerr.domain.util.AlertMessageParserTests" time="0.001"/>
   <testcase name="throwsExceptionIfIntervalHasMoreThanZeroParameters()" classname="com.riglerr.domain.util.AlertMessageParserTests" time="0.001"/>
-  <testcase name="exceptionThrownIfTimeIsNotFormattedCorrectly()" classname="com.riglerr.domain.util.AlertMessageParserTests" time="0.001"/>
-  <testcase name="parsesMultiWordMessageArgument()" classname="com.riglerr.domain.util.AlertMessageParserTests" time="0.001"/>
-  <testcase name="parsesTimeCorrectly()" classname="com.riglerr.domain.util.AlertMessageParserTests" time="0.001"/>
-  <testcase name="throwsExceptionIfMessageOmitted()" classname="com.riglerr.domain.util.AlertMessageParserTests" time="0.002"/>
+  <testcase name="exceptionThrownIfTimeIsNotFormattedCorrectly()" classname="com.riglerr.domain.util.AlertMessageParserTests" time="0.0"/>
+  <testcase name="parsesMultiWordMessageArgument()" classname="com.riglerr.domain.util.AlertMessageParserTests" time="0.0"/>
+  <testcase name="parsesTimeCorrectly()" classname="com.riglerr.domain.util.AlertMessageParserTests" time="0.0"/>
+  <testcase name="throwsExceptionIfMessageOmitted()" classname="com.riglerr.domain.util.AlertMessageParserTests" time="0.001"/>
   <testcase name="exceptionIfTimeIsNullOrEmpty()" classname="com.riglerr.domain.util.AlertMessageParserTests" time="0.001"/>
-  <testcase name="exceptionThrownIfTimeOptionNotSpecified()" classname="com.riglerr.domain.util.AlertMessageParserTests" time="0.001"/>
-  <testcase name="throwsExceptionIfMessageContainsNonValidOption()" classname="com.riglerr.domain.util.AlertMessageParserTests" time="0.001"/>
-  <testcase name="allowsNullIntervalAsZero()" classname="com.riglerr.domain.util.AlertMessageParserTests" time="0.001"/>
+  <testcase name="exceptionThrownIfTimeOptionNotSpecified()" classname="com.riglerr.domain.util.AlertMessageParserTests" time="0.0"/>
+  <testcase name="throwsExceptionIfMessageContainsNonValidOption()" classname="com.riglerr.domain.util.AlertMessageParserTests" time="0.0"/>
+  <testcase name="allowsNullIntervalAsZero()" classname="com.riglerr.domain.util.AlertMessageParserTests" time="0.0"/>
   <testcase name="throwsExceptionIfTimeHasMoreThanOneParameter()" classname="com.riglerr.domain.util.AlertMessageParserTests" time="0.001"/>
   <testcase name="allowsEmptyIntervalAsZero()" classname="com.riglerr.domain.util.AlertMessageParserTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

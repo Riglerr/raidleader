@@ -10,7 +10,7 @@ public class InMemoryAlertRepository implements AlertRepository {
 
     private List<Alert> alertStore;
 
-    public InMemoryAlertRepository(List<Alert> alertStore) {
+    public InMemoryAlertRepository() {
         alertStore = new ArrayList<>();
     }
 

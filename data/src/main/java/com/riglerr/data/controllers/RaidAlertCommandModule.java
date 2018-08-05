@@ -2,7 +2,9 @@ package com.riglerr.data.controllers;
 
 import com.riglerr.data.exceptions.CommandNotFoundException;
 import com.riglerr.data.interfaces.CommandModule;
+import com.riglerr.domain.entities.Alert;
 import com.riglerr.domain.entities.MessageContext;
+import com.riglerr.domain.interfaces.AlertRepository;
 import com.riglerr.domain.interfaces.Messager;
 import com.riglerr.domain.usecases.CreateRaidAlertUseCase;
 
@@ -32,7 +34,7 @@ public class RaidAlertCommandModule implements CommandModule {
         var command = split[1];
         switch (command) {
             case "-t": {
-                createRaidAlertUseCase.createRaidAlert(context);
+                createRaidAlertUseCase.execute(context);
                 break;
             }
             default: {

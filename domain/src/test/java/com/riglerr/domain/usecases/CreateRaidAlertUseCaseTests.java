@@ -30,7 +30,7 @@ public class CreateRaidAlertUseCaseTests {
     void successfullyParsesMessageAndAddsToRepository() throws Exception {
         String inputString = "!raidalert -t 15:30:00 -i P7D -m Raid Starting in 30 mins.";
         buildAlertAndContext(inputString);
-        UC.createRaidAlert(messageContext);
+        UC.execute(messageContext);
 
         var actualAlert = captureArgumentForAddToRepository();
 
@@ -41,7 +41,7 @@ public class CreateRaidAlertUseCaseTests {
     void successfullySendsSuccessMessage() throws Exception {
         String inputString = "!raidalert -t 15:30:00 -i P7D -m Raid Starting in 30 mins.";
         buildAlertAndContext(inputString);
-        UC.createRaidAlert(messageContext);
+        UC.execute(messageContext);
 
         var actualMessage = captureArgumentForMessagerSendMessage();
 

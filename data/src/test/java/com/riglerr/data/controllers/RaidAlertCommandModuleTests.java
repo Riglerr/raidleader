@@ -16,6 +16,7 @@ class RaidAlertCommandModuleTests {
     void identifiesAndRunsCreateRaidAlertUseCase() {
         // Build
         var mockUseCase = mock(CreateRaidAlertUseCase.class);
+        var mockRepo = mock(AlertRepository.class);
         var mockMessageContext = mock(MessageContext.class);
         var messager = mock(Messager.class);
         when(mockMessageContext.getText()).thenReturn("!raidalert -t 16:30 -m ThisisAMessage.");
@@ -25,7 +26,7 @@ class RaidAlertCommandModuleTests {
         module.execute(mockMessageContext);
 
         // Assert
-        verify(mockUseCase).createRaidAlert(mockMessageContext);
+        verify(mockUseCase).execute(mockMessageContext);
     }
 
     @Test

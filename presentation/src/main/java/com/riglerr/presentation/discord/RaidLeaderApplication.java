@@ -1,10 +1,12 @@
 package com.riglerr.presentation.discord;
 
 
+import com.riglerr.data.CommandStore;
 import com.riglerr.data.DiscordMessager;
-import com.riglerr.data.controllers.DiscordMessageController;
 import com.riglerr.data.controllers.RaidAlertCommandModule;
+import com.riglerr.data.interfaces.CommandModule;
 import com.riglerr.data.repositories.InMemoryAlertRepository;
+import com.riglerr.domain.interfaces.AlertRepository;
 import com.riglerr.domain.usecases.CreateRaidAlertUseCase;
 import net.dv8tion.jda.core.AccountType;
 import net.dv8tion.jda.core.JDA;
@@ -15,10 +17,17 @@ import javax.security.auth.login.LoginException;
 public class RaidLeaderApplication {
     private JDA bot;
     private JDABuilder botBuilder;
+    private AlertRepository alertRepository;
+    private DiscordMessager messager;
 
     public static void main(String[] args) {
         try {
-            startNewBotInstance(args[0]);
+            new RaidLeaderApplication(args[0])
+                    .initializeRepositories()
+                    .start()
+                    .initializeMessager()
+                    .addModules();
+
         } catch (LoginException lEx) {
 
         } catch (Exception e) {
@@ -26,30 +35,34 @@ public class RaidLeaderApplication {
         }
     }
 
-    public static void startNewBotInstance(String token) throws LoginException {
-        var instance = new RaidLeaderApplication().setup(token);
-        instance.start();
-    }
-
-    private RaidLeaderApplication setup(String token) {
+    public RaidLeaderApplication(String token) {
         botBuilder = new JDABuilder(AccountType.BOT).setToken(token);
-        setupModules();
     }
 
-    private void setupModules() {
-        var commandController = new DiscordMessageController(new RaidAlertCommandModule());
-        botBuilder.addEventListener(new MessageListener(commandController));
+    private RaidLeaderApplication initializeRepositories() {
+        alertRepository = new InMemoryAlertRepository();
+        return this;
     }
 
-    private DiscordMessageController addModules() {
-        var alertRepo = new InMemoryAlertRepository();
-        var discordMessager = new DiscordMessager();
-        var createAlertUseCase = new CreateRaidAlertUseCase(alertRepo, discordMessager);
-        var raidAlertModule = new RaidAlertCommandModule();
-        return new DiscordMessageController();
+    private RaidLeaderApplication initializeMessager() {
+        messager = new DiscordMessager(bot);
+        return this;
     }
 
-    private void start() throws LoginException {
-        bot = botBuilder.buildAsync();
+    private RaidLeaderApplication addModules() {
+        CommandStore commandStore = new CommandStore();
+        addRaidAlertModules(commandStore);
+        bot.addEventListener(new MessageListener(commandStore, messager));
+        return this;
+    }
+
+    private void addRaidAlertModules(CommandStore commandStore) {
+        var createUseCase = new CreateRaidAlertUseCase(alertRepository, messager);
+        commandStore.addCommand("!", "raidalert", "add", createUseCase);
+    }
+
+    private RaidLeaderApplication start() throws LoginException, InterruptedException {
+        bot = botBuilder.buildBlocking();
+        return this;
     }
 }

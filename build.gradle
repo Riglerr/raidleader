@@ -1,6 +1,15 @@
 group 'com.riglerr.raidleader'
 version '1.0-SNAPSHOT'
 
+apply plugin: 'application'
+mainClassName = 'com.riglerr.presentation.discord.RaidLeaderApplication'
+
+run {
+    if(project.hasProperty('args')){
+        args project.args.split('\\s')
+    }
+}
+
 subprojects {
     apply plugin: 'java'
     repositories {
