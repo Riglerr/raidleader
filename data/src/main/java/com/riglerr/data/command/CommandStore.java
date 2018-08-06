@@ -9,6 +9,7 @@ import java.util.HashMap;
 
 public class CommandStore {
     private HashMap<String, UseCase> commands;
+    
     public CommandStore() {
         commands = new HashMap<>();
     }

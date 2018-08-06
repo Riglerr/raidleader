@@ -1,5 +1,6 @@
 package com.riglerr.data;
 
+import com.riglerr.data.command.CommandStore;
 import com.riglerr.data.exceptions.DuplicateCommandException;
 import com.riglerr.data.exceptions.InvalidCommandException;
 import com.riglerr.domain.entities.MessageContext;
@@ -11,7 +12,7 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.verifyNoMoreInteractions;
 
-class CommandProcessorTest {
+class CommandStoreTest {
     @Test
     void canAddCommand() {
         var commandStore = new CommandStore();
@@ -34,9 +35,7 @@ class CommandProcessorTest {
         var moduleIdentifier = "testModule";
         var commandIdentifier = "!testCommand";
         var expectedUsecase = mock(UseCase.class);
-        assertThrows(InvalidCommandException.class, ()-> {
-            commandStore.addCommand(prefix, moduleIdentifier, commandIdentifier, expectedUsecase);
-        }, "Prefix is Null or Empty");
+        assertThrows(InvalidCommandException.class, ()-> commandStore.addCommand(prefix, moduleIdentifier, commandIdentifier, expectedUsecase), "Prefix is Null or Empty");
     }
 
     @Test
@@ -46,9 +45,7 @@ class CommandProcessorTest {
         var moduleIdentifier = "testModule";
         var commandIdentifier = "!testCommand";
         var expectedUsecase = mock(UseCase.class);
-        assertThrows(InvalidCommandException.class, ()-> {
-            commandStore.addCommand(prefix, moduleIdentifier, commandIdentifier, expectedUsecase);
-        }, "Prefix is Null or Empty");
+        assertThrows(InvalidCommandException.class, ()-> commandStore.addCommand(prefix, moduleIdentifier, commandIdentifier, expectedUsecase), "Prefix is Null or Empty");
     }
 
     @Test
@@ -58,9 +55,7 @@ class CommandProcessorTest {
         String moduleIdentifier = null;
         String commandIdentifier = "!testCommand";
         var expectedUsecase = mock(UseCase.class);
-        assertThrows(InvalidCommandException.class, ()-> {
-            commandStore.addCommand(prefix, moduleIdentifier, commandIdentifier, expectedUsecase);
-        }, "ModuleIdentifier is Null or Empty");
+        assertThrows(InvalidCommandException.class, ()-> commandStore.addCommand(prefix, moduleIdentifier, commandIdentifier, expectedUsecase), "ModuleIdentifier is Null or Empty");
     }
 
     @Test
@@ -70,9 +65,7 @@ class CommandProcessorTest {
         String moduleIdentifier = "";
         String commandIdentifier = "!testCommand";
         var expectedUsecase = mock(UseCase.class);
-        assertThrows(InvalidCommandException.class, ()-> {
-            commandStore.addCommand(prefix, moduleIdentifier, commandIdentifier, expectedUsecase);
-        }, "ModuleIdentifier is Null or Empty");
+        assertThrows(InvalidCommandException.class, ()-> commandStore.addCommand(prefix, moduleIdentifier, commandIdentifier, expectedUsecase), "ModuleIdentifier is Null or Empty");
     }
 
     @Test
@@ -82,9 +75,7 @@ class CommandProcessorTest {
         String moduleIdentifier = "testModule";
         String commandIdentifier = null;
         var expectedUsecase = mock(UseCase.class);
-        assertThrows(InvalidCommandException.class, ()-> {
-            commandStore.addCommand(prefix, moduleIdentifier, commandIdentifier, expectedUsecase);
-        }, "CommandIdentifier is Null or Empty");
+        assertThrows(InvalidCommandException.class, ()-> commandStore.addCommand(prefix, moduleIdentifier, commandIdentifier, expectedUsecase), "CommandIdentifier is Null or Empty");
     }
 
     @Test
@@ -94,9 +85,7 @@ class CommandProcessorTest {
         String moduleIdentifier = "testModule";
         String commandIdentifier = "";
         var expectedUsecase = mock(UseCase.class);
-        assertThrows(InvalidCommandException.class, ()-> {
-            commandStore.addCommand(prefix, moduleIdentifier, commandIdentifier, expectedUsecase);
-        }, "CommandIdentifier is Null or Empty");
+        assertThrows(InvalidCommandException.class, ()-> commandStore.addCommand(prefix, moduleIdentifier, commandIdentifier, expectedUsecase), "CommandIdentifier is Null or Empty");
     }
 
     @Test
@@ -106,9 +95,7 @@ class CommandProcessorTest {
         String moduleIdentifier = "testModule";
         String commandIdentifier = "testCommand";
         UseCase expectedUsecase = null;
-        assertThrows(InvalidCommandException.class, ()-> {
-            commandStore.addCommand(prefix, moduleIdentifier, commandIdentifier, expectedUsecase);
-        }, "Usecase cannot be null");
+        assertThrows(InvalidCommandException.class, ()-> commandStore.addCommand(prefix, moduleIdentifier, commandIdentifier, expectedUsecase), "Usecase cannot be null");
     }
 
     @Test
@@ -120,9 +107,7 @@ class CommandProcessorTest {
         UseCase expectedUsecase = mock(UseCase.class);
 
         commandStore.addCommand(prefix, moduleIdentifier, commandIdentifier, expectedUsecase);
-        assertThrows(DuplicateCommandException.class, ()-> {
-            commandStore.addCommand(prefix, moduleIdentifier, commandIdentifier, expectedUsecase);
-        });
+        assertThrows(DuplicateCommandException.class, ()-> commandStore.addCommand(prefix, moduleIdentifier, commandIdentifier, expectedUsecase));
     }
 
     @Test
