@@ -41,7 +41,7 @@ public class AlertMessageParser {
         var quotesFlag = false;
         for (String arg : args) {
             if (isValidOption(quotesFlag, arg) && !optionsKvP.containsKey(arg)) {
-                optionsKvP.put(arg, new ArrayList<String>());
+                optionsKvP.put(arg, new ArrayList<>());
                 lastOption = arg;
             } else if (lastOption != null) {
                 var list = optionsKvP.get(lastOption);

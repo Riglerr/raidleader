@@ -58,12 +58,9 @@ public class Alert {
             return false;
         }
         var alertObj =  (Alert) obj;
-        if (this.time.equals(alertObj.time) && this.intervalInSeconds == alertObj.intervalInSeconds
+        return this.time.equals(alertObj.time) && this.intervalInSeconds == alertObj.intervalInSeconds
                 && this.messageText.equals(alertObj.messageText) && this.guildId == alertObj.guildId
-                && this.channelId == alertObj.channelId) {
-            return true;
-        }
-        return false;
+                && this.channelId == alertObj.channelId;
     }
 
     public static Alert fromString(String message) throws Exception {

@@ -1,5 +1,6 @@
-package com.riglerr.data;
+package com.riglerr.data.command;
 
+import com.iwebpp.crypto.TweetNaclFast;
 import com.riglerr.data.exceptions.DuplicateCommandException;
 import com.riglerr.data.exceptions.InvalidCommandException;
 import com.riglerr.domain.entities.MessageContext;
@@ -8,8 +9,8 @@ import com.riglerr.domain.interfaces.UseCase;
 import java.util.HashMap;
 
 public class CommandStore {
-    private HashMap<String, UseCase> commands;
-    
+    private HashMap<String,  UseCase> commands;
+
     public CommandStore() {
         commands = new HashMap<>();
     }

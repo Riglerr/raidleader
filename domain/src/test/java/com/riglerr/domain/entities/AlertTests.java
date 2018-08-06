@@ -2,6 +2,7 @@ package com.riglerr.domain.entities;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.time.Duration;
 import java.time.LocalTime;
@@ -17,7 +18,7 @@ public class AlertTests {
         var obj2 = new Alert(time, interval, message, 1, 1);
         var outcome = obj1.equals(obj2);
 
-        assertEquals(true, outcome);
+        assertTrue(outcome);
         assertEquals(obj1, obj2);
     }
 }

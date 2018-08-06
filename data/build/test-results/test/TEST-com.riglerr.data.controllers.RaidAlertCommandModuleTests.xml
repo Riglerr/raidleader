@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.riglerr.data.controllers.RaidAlertCommandModuleTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-08-05T14:44:33" hostname="rob-dev" time="0.344">
-  <properties/>
-  <testcase name="identifiesAndRunsCreateRaidAlertUseCase()" classname="com.riglerr.data.controllers.RaidAlertCommandModuleTests" time="0.342"/>
-  <testcase name="shouldSendErrorMessageWhenNoMatchingCommandFound()" classname="com.riglerr.data.controllers.RaidAlertCommandModuleTests" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

@@ -19,7 +19,6 @@ public class CreateRaidAlertUseCaseTests {
     private CreateRaidAlertUseCase UC;
     private Alert expectedAlert;
     private MessageContext messageContext;
-    private String ExpectedSuccessMessage = "Alert successfully created.";
 
     @BeforeEach
     void beforeEachCreateNewUseCaseObject() {
@@ -45,7 +44,8 @@ public class CreateRaidAlertUseCaseTests {
 
         var actualMessage = captureArgumentForMessagerSendMessage();
 
-        assertEquals(ExpectedSuccessMessage, actualMessage);
+        String expectedSuccessMessage = "Alert successfully created.";
+        assertEquals(expectedSuccessMessage, actualMessage);
     }
 
     private void buildAlertAndContext(String message) throws Exception {

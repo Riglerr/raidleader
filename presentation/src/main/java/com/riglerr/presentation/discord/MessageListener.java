@@ -1,6 +1,6 @@
 package com.riglerr.presentation.discord;
 
-import com.riglerr.data.CommandStore;
+import com.riglerr.data.command.CommandStore;
 import com.riglerr.data.DiscordMessager;
 import com.riglerr.data.mappers.MessageContextMapper;
 import net.dv8tion.jda.core.events.message.MessageReceivedEvent;

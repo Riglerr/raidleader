@@ -1,4 +1,4 @@
-package com.riglerr.data;
+package com.riglerr.data.command;
 
 import com.riglerr.data.command.CommandStore;
 import com.riglerr.data.exceptions.DuplicateCommandException;

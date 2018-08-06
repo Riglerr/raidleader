@@ -1,10 +1,7 @@
 package com.riglerr.presentation.discord;
 
-
-import com.riglerr.data.CommandStore;
+import com.riglerr.data.command.CommandStore;
 import com.riglerr.data.DiscordMessager;
-import com.riglerr.data.controllers.RaidAlertCommandModule;
-import com.riglerr.data.interfaces.CommandModule;
 import com.riglerr.data.repositories.InMemoryAlertRepository;
 import com.riglerr.domain.interfaces.AlertRepository;
 import com.riglerr.domain.usecases.CreateRaidAlertUseCase;
@@ -28,8 +25,6 @@ public class RaidLeaderApplication {
                     .initializeMessager()
                     .addModules();
 
-        } catch (LoginException lEx) {
-
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -52,7 +47,7 @@ public class RaidLeaderApplication {
     private RaidLeaderApplication addModules() {
         CommandStore commandStore = new CommandStore();
         addRaidAlertModules(commandStore);
-        bot.addEventListener(new MessageListener(commandStore, messager));
+        botBuilder.addEventListener(new MessageListener(commandStore, messager));
         return this;
     }
 

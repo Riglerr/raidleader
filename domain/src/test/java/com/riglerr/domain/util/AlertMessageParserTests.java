@@ -20,25 +20,25 @@ public class AlertMessageParserTests {
     @Test
     void exceptionIfTimeIsNullOrEmpty() {
         final MessageContext context = createTestContext("!raidalert -t -i P7D -m \"@raiders Raid starting in 30 minutes.\"");
-        assertThrows(Exception.class, () -> {AlertMessageParser.parse(context);});
+        assertThrows(Exception.class, () -> AlertMessageParser.parse(context));
     }
 
     @Test
     void exceptionThrownIfTimeOptionNotSpecified() {
         final MessageContext context = createTestContext("!raidalert 16:30:00 -i P7D -m \"@raiders Raid starting in 30 minutes.\"");
-        assertThrows(Exception.class, () -> {AlertMessageParser.parse(context);});
+        assertThrows(Exception.class, () -> AlertMessageParser.parse(context));
     }
 
     @Test
     void exceptionThrownIfTimeIsNotFormattedCorrectly() {
         final MessageContext context = createTestContext("!raidalert 87::3H1:0 -i P7D -m \"@raiders Raid starting in 30 minutes.\"");
-        assertThrows(Exception.class, () -> {AlertMessageParser.parse(context);});
+        assertThrows(Exception.class, () -> AlertMessageParser.parse(context));
     }
 
     @Test
     void throwsExceptionIfTimeHasMoreThanOneParameter() {
         final MessageContext context = createTestContext("!raidalert -t 16:30:00 18:45:15 -i P7D -m \"@raiders Raid starting in 30 minutes.\"");
-        assertThrows(Exception.class, () -> {AlertMessageParser.parse(context);});
+        assertThrows(Exception.class, () -> AlertMessageParser.parse(context));
     }
 
     @Test
@@ -65,13 +65,13 @@ public class AlertMessageParserTests {
     @Test
     void throwsExceptionIfIntervalHasMoreThanZeroParameters() {
         final MessageContext context = createTestContext("!raidalert -t 16:30:00 -i P7D PT10S -m \"@raiders Raid starting in 30 minutes.\"");
-        assertThrows(Exception.class, () -> {AlertMessageParser.parse(context);});
+        assertThrows(Exception.class, () -> AlertMessageParser.parse(context));
     }
 
     @Test
     void throwsExceptionIfIntervalImproperlyFormatted() {
         final MessageContext context = createTestContext("!raidalert -t 16:30:00 -i P7Dsadf -m \"@raiders Raid starting in 30 minutes.\"");
-        assertThrows(Exception.class, () -> {AlertMessageParser.parse(context);});
+        assertThrows(Exception.class, () -> AlertMessageParser.parse(context));
     }
 
     @Test
@@ -91,19 +91,19 @@ public class AlertMessageParserTests {
     @Test
     void throwsExceptionIfMessageOmitted() {
         final MessageContext context = createTestContext("!raidalert -t 16:30:00 -i P7D");
-        assertThrows(Exception.class, () -> {AlertMessageParser.parse(context);});
+        assertThrows(Exception.class, () -> AlertMessageParser.parse(context));
     }
 
     @Test
     void throwsExceptionIfMessageIsNullOrEmpty() {
         final MessageContext context = createTestContext("!raidalert -t 16:30:00 -i P7D -m");
-        assertThrows(Exception.class, () -> {AlertMessageParser.parse(context);});
+        assertThrows(Exception.class, () -> AlertMessageParser.parse(context));
     }
 
     @Test
     void throwsExceptionIfMessageContainsNonValidOption() {
         final MessageContext context = createTestContext("!raidalert -t 16:30:00 -y -i P7D -m @raiders Raid starting in 30 minutes. -b -z -a");
-        assertThrows(Exception.class, () -> {AlertMessageParser.parse(context);});
+        assertThrows(Exception.class, () -> AlertMessageParser.parse(context));
     }
 
     private void assertCorrectTime(LocalTime actualTime) {

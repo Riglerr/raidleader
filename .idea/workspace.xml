@@ -2,43 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1dad09dc-842c-4998-a131-74b9c00ac679" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/riglerr/data/CommandStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/riglerr/data/exceptions/DuplicateCommandException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/riglerr/data/exceptions/InvalidCommandException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/test/java/com/riglerr/data/CommandProcessorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/riglerr/domain/interfaces/UseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileContent/annotation-processors.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileContent/annotation-processors.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/classes/java/main/com/riglerr/data/controllers/RaidAlertCommandModule.class" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/classes/java/main/com/riglerr/data/controllers/RaidAlertCommandModule.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/classes/java/test/com/riglerr/data/controllers/RaidAlertCommandModuleTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/classes/java/test/com/riglerr/data/controllers/RaidAlertCommandModuleTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/reports/tests/test/classes/com.riglerr.data.controllers.DiscordMessageControllerTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/reports/tests/test/classes/com.riglerr.data.controllers.DiscordMessageControllerTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/reports/tests/test/classes/com.riglerr.data.controllers.RaidAlertCommandModuleTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/reports/tests/test/classes/com.riglerr.data.controllers.RaidAlertCommandModuleTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/build/classes/java/main/com/riglerr/data/controllers/DiscordMessageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/build/classes/java/main/com/riglerr/data/controllers/RaidAlertCommandModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/build/classes/java/main/com/riglerr/data/interfaces/CommandModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/build/classes/java/test/com/riglerr/data/controllers/DiscordMessageControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/build/classes/java/test/com/riglerr/data/controllers/RaidAlertCommandModuleTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/build/reports/tests/test/classes/com.riglerr.data.controllers.DiscordMessageControllerTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/build/reports/tests/test/classes/com.riglerr.data.controllers.RaidAlertCommandModuleTests.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/reports/tests/test/packages/com.riglerr.data.controllers.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/reports/tests/test/packages/com.riglerr.data.controllers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/test-results/test/TEST-com.riglerr.data.controllers.DiscordMessageControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/test-results/test/TEST-com.riglerr.data.controllers.DiscordMessageControllerTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/test-results/test/TEST-com.riglerr.data.controllers.RaidAlertCommandModuleTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/test-results/test/TEST-com.riglerr.data.controllers.RaidAlertCommandModuleTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/build/reports/tests/test/packages/com.riglerr.data.controllers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/build/test-results/test/TEST-com.riglerr.data.controllers.DiscordMessageControllerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/build/test-results/test/TEST-com.riglerr.data.controllers.RaidAlertCommandModuleTests.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/out/production/classes/com/riglerr/data/controllers/RaidAlertCommandModule.class" beforeDir="false" afterPath="$PROJECT_DIR$/data/out/production/classes/com/riglerr/data/controllers/RaidAlertCommandModule.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/out/test/classes/com/riglerr/data/controllers/RaidAlertCommandModuleTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/data/out/test/classes/com/riglerr/data/controllers/RaidAlertCommandModuleTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/riglerr/data/DiscordMessager.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/riglerr/data/DiscordMessager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/riglerr/data/controllers/RaidAlertCommandModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/riglerr/data/controllers/RaidAlertCommandModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/riglerr/data/repositories/InMemoryAlertRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/riglerr/data/repositories/InMemoryAlertRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/test/java/com/riglerr/data/controllers/RaidAlertCommandModuleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/test/java/com/riglerr/data/controllers/RaidAlertCommandModuleTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/classes/java/main/com/riglerr/domain/usecases/CreateRaidAlertUseCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/classes/java/main/com/riglerr/domain/usecases/CreateRaidAlertUseCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/out/production/classes/com/riglerr/data/controllers/DiscordMessageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/out/production/classes/com/riglerr/data/controllers/RaidAlertCommandModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/out/production/classes/com/riglerr/data/interfaces/CommandModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/out/test/classes/com/riglerr/data/controllers/DiscordMessageControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/out/test/classes/com/riglerr/data/controllers/RaidAlertCommandModuleTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/riglerr/data/command/CommandStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/riglerr/data/command/CommandStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/riglerr/data/mappers/MessageContextMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/riglerr/data/mappers/MessageContextMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/test/java/com/riglerr/data/command/CommandStoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/test/java/com/riglerr/data/command/CommandStoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/build/classes/java/main/com/riglerr/domain/entities/Alert.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/classes/java/main/com/riglerr/domain/entities/Alert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/build/classes/java/test/com/riglerr/domain/entities/AlertTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/classes/java/test/com/riglerr/domain/entities/AlertTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/build/classes/java/test/com/riglerr/domain/usecases/CreateRaidAlertUseCaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/classes/java/test/com/riglerr/domain/usecases/CreateRaidAlertUseCaseTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/build/libs/domain-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/libs/domain-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/build/reports/tests/test/classes/com.riglerr.domain.entities.AlertTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/reports/tests/test/classes/com.riglerr.domain.entities.AlertTests.html" afterDir="false" />
@@ -52,12 +47,13 @@
       <change beforePath="$PROJECT_DIR$/domain/build/test-results/test/TEST-com.riglerr.domain.usecases.CreateRaidAlertUseCaseTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/test-results/test/TEST-com.riglerr.domain.usecases.CreateRaidAlertUseCaseTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/build/test-results/test/TEST-com.riglerr.domain.util.AlertMessageParserTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/test-results/test/TEST-com.riglerr.domain.util.AlertMessageParserTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/out/production/classes/com/riglerr/domain/usecases/CreateRaidAlertUseCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/out/production/classes/com/riglerr/domain/usecases/CreateRaidAlertUseCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/out/test/classes/com/riglerr/domain/usecases/CreateRaidAlertUseCaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/out/test/classes/com/riglerr/domain/usecases/CreateRaidAlertUseCaseTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/riglerr/domain/usecases/CreateRaidAlertUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/riglerr/domain/usecases/CreateRaidAlertUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/out/production/classes/com/riglerr/domain/entities/Alert.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/out/production/classes/com/riglerr/domain/entities/Alert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/riglerr/domain/entities/Alert.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/riglerr/domain/entities/Alert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/riglerr/domain/interfaces/UseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/riglerr/domain/interfaces/UseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/riglerr/domain/util/AlertMessageParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/riglerr/domain/util/AlertMessageParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/test/java/com/riglerr/domain/entities/AlertTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/com/riglerr/domain/entities/AlertTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/src/test/java/com/riglerr/domain/usecases/CreateRaidAlertUseCaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/com/riglerr/domain/usecases/CreateRaidAlertUseCaseTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/test/java/com/riglerr/domain/util/AlertMessageParserTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/com/riglerr/domain/util/AlertMessageParserTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/presentation/src/main/java/com/riglerr/presentation/discord/MessageListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/java/com/riglerr/presentation/discord/MessageListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/presentation/src/main/java/com/riglerr/presentation/discord/RaidLeaderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/java/com/riglerr/presentation/discord/RaidLeaderApplication.java" afterDir="false" />
     </list>
@@ -146,35 +142,40 @@
     <session id="-2096581848">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gradle" value="17" />
-          <entry key="java" value="43" />
+          <entry key="gitignore" value="1" />
+          <entry key="gradle" value="18" />
+          <entry key="java" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="17" />
-          <entry key="JAVA" value="43" />
+          <entry key="Groovy" value="18" />
+          <entry key="JAVA" value="57" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="dummy" value="5" />
+          <entry key="gitignore" value="78" />
           <entry key="gradle" value="306" />
-          <entry key="java" value="5534" />
+          <entry key="java" value="6227" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="306" />
-          <entry key="JAVA" value="5534" />
+          <entry key="JAVA" value="6227" />
+          <entry key="PLAIN_TEXT" value="83" />
         </counts>
       </usages-collector>
     </session>
@@ -182,27 +183,58 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/presentation/src/main/java/com/riglerr/presentation/discord/MessageListener.java">
+        <entry file="file://$PROJECT_DIR$/data/src/main/java/com/riglerr/data/command/CommandStore.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#addCommand#0;class#CommandStore#0" />
+                <element signature="method#executeCommand#0;class#CommandStore#0" />
+                <element signature="method#makeCommandKey#0;class#CommandStore#0" />
+                <element signature="method#verifyCommand#0;class#CommandStore#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/presentation/src/main/java/com/riglerr/presentation/discord/RaidLeaderApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-211">
-              <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+            <state relative-caret-position="231">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1002#1003#0" expanded="true" />
-                <element signature="e#1078#1079#0" expanded="true" />
+                <element signature="e#1075#1076#0" expanded="true" />
+                <element signature="e#1151#1152#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="21" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/riglerr/domain/entities/Alert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="444">
+              <caret line="122" column="62" selection-start-line="122" selection-start-column="62" selection-end-line="122" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -985,7 +1017,6 @@
         <option value="$PROJECT_DIR$/presentation/build.gradle" />
         <option value="$PROJECT_DIR$/presentation/src/test/java/com/riglerr/presentation/discord/MessageListenerTest.java" />
         <option value="$PROJECT_DIR$/data/build.gradle" />
-        <option value="$PROJECT_DIR$/data/src/main/java/com/riglerr/data/mappers/MessageContextMapper.java" />
         <option value="$PROJECT_DIR$/data/src/test/java/com/riglerr/data/mappers/MessageContextMapperTest.java" />
         <option value="$PROJECT_DIR$/data/src/main/java/com/riglerr/data/repositories/InMemoryAlertRepository.java" />
         <option value="$PROJECT_DIR$/domain/src/main/java/com/riglerr/domain/usecases/CreateRaidAlertUseCase.java" />
@@ -999,9 +1030,17 @@
         <option value="$PROJECT_DIR$/data/src/main/java/com/riglerr/data/exceptions/DuplicateCommandException.java" />
         <option value="$PROJECT_DIR$/data/src/test/java/com/riglerr/data/CommandProcessorTest.java" />
         <option value="$PROJECT_DIR$/data/src/main/java/com/riglerr/data/DiscordMessager.java" />
-        <option value="$PROJECT_DIR$/data/src/main/java/com/riglerr/data/CommandStore.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/presentation/src/main/java/com/riglerr/presentation/discord/MessageListener.java" />
+        <option value="$PROJECT_DIR$/data/src/test/java/com/riglerr/data/CommandStoreTest.java" />
+        <option value="$PROJECT_DIR$/domain/src/test/java/com/riglerr/domain/util/AlertMessageParserTests.java" />
+        <option value="$PROJECT_DIR$/data/src/main/java/com/riglerr/data/mappers/MessageContextMapper.java" />
+        <option value="$PROJECT_DIR$/data/src/main/java/com/riglerr/data/CommandStore.java" />
+        <option value="$PROJECT_DIR$/data/src/main/java/com/riglerr/data/command/CNode.java" />
+        <option value="$PROJECT_DIR$/data/src/main/java/com/riglerr/data/command/CommandRepository.java" />
+        <option value="$PROJECT_DIR$/data/src/main/java/com/riglerr/data/command/CommandStore.java" />
+        <option value="$PROJECT_DIR$/data/src/test/java/com/riglerr/data/command/CommandStoreTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/presentation/src/main/java/com/riglerr/presentation/discord/RaidLeaderApplication.java" />
       </list>
     </option>
@@ -1012,7 +1051,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="1280" />
     <option name="y" value="25" />
     <option name="width" value="1280" />
     <option name="height" value="1055" />
@@ -1023,8 +1063,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1035,49 +1074,60 @@
             <path>
               <item name="raidleader" type="b2602c69:ProjectViewProjectNode" />
               <item name="raidleader" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="presentation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="domain" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="raidleader" type="b2602c69:ProjectViewProjectNode" />
               <item name="raidleader" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="presentation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="domain" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="raidleader" type="b2602c69:ProjectViewProjectNode" />
               <item name="raidleader" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="presentation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="raidleader" type="b2602c69:ProjectViewProjectNode" />
-              <item name="raidleader" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="presentation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="domain" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="raidleader" type="b2602c69:ProjectViewProjectNode" />
               <item name="raidleader" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="presentation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="domain" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="discord" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="raidleader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="raidleader" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="domain" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="raidleader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="raidleader" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="domain" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533482429778" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533561450997" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -1085,6 +1135,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -1112,7 +1163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RaidLeaderApplication">
+  <component name="RunManager">
     <configuration name="RaidLeaderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.riglerr.presentation.discord.RaidLeaderApplication" />
       <module name="presentation_main" />
@@ -1163,46 +1214,46 @@
       </ExternalSystemSettings>
       <method v="2" />
     </configuration>
-    <configuration name="CommandProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CommandStoreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.riglerr.data.*" />
+          <option name="PATTERN" value="com.riglerr.data.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.riglerr.data" />
-      <option name="MAIN_CLASS_NAME" value="com.riglerr.data.CommandProcessorTest" />
+      <option name="PACKAGE_NAME" value="com.riglerr.data.command" />
+      <option name="MAIN_CLASS_NAME" value="com.riglerr.data.command.CommandStoreTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommandProcessorTest.doesNothingForNoMatchingCommands" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CommandStoreTest.doesNothingForNoMatchingCommands" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.riglerr.data.*" />
+          <option name="PATTERN" value="com.riglerr.data.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.riglerr.data" />
-      <option name="MAIN_CLASS_NAME" value="com.riglerr.data.CommandProcessorTest" />
+      <option name="PACKAGE_NAME" value="com.riglerr.data.command" />
+      <option name="MAIN_CLASS_NAME" value="com.riglerr.data.command.CommandStoreTest" />
       <option name="METHOD_NAME" value="doesNothingForNoMatchingCommands" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommandProcessorTest.executesCorrectCommand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CommandStoreTest.executesCorrectCommand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.riglerr.data.*" />
+          <option name="PATTERN" value="com.riglerr.data.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.riglerr.data" />
-      <option name="MAIN_CLASS_NAME" value="com.riglerr.data.CommandProcessorTest" />
+      <option name="PACKAGE_NAME" value="com.riglerr.data.command" />
+      <option name="MAIN_CLASS_NAME" value="com.riglerr.data.command.CommandStoreTest" />
       <option name="METHOD_NAME" value="executesCorrectCommand" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -1213,17 +1264,17 @@
       <item itemvalue="Gradle.raidleader [run]" />
       <item itemvalue="Application.RaidLeaderApplication" />
       <item itemvalue="Gradle.raidleader [build]" />
-      <item itemvalue="JUnit.CommandProcessorTest" />
-      <item itemvalue="JUnit.CommandProcessorTest.executesCorrectCommand" />
-      <item itemvalue="JUnit.CommandProcessorTest.doesNothingForNoMatchingCommands" />
+      <item itemvalue="JUnit.CommandStoreTest" />
+      <item itemvalue="JUnit.CommandStoreTest.executesCorrectCommand" />
+      <item itemvalue="JUnit.CommandStoreTest.doesNothingForNoMatchingCommands" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CommandStoreTest" />
         <item itemvalue="Application.RaidLeaderApplication" />
         <item itemvalue="Gradle.raidleader [build]" />
-        <item itemvalue="JUnit.CommandProcessorTest.doesNothingForNoMatchingCommands" />
-        <item itemvalue="JUnit.CommandProcessorTest.executesCorrectCommand" />
-        <item itemvalue="JUnit.CommandProcessorTest" />
+        <item itemvalue="JUnit.CommandStoreTest.doesNothingForNoMatchingCommands" />
+        <item itemvalue="JUnit.CommandStoreTest.executesCorrectCommand" />
       </list>
     </recent_temporary>
   </component>
@@ -1239,14 +1290,12 @@
       <updated>1533218658735</updated>
       <workItem from="1533218660041" duration="1006000" />
       <workItem from="1533220152344" duration="3794000" />
-      <workItem from="1533466492638" duration="13749000" />
+      <workItem from="1533466492638" duration="14889000" />
+      <workItem from="1533551430089" duration="7772000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CommandProcessorTest - 2018.08.05 at 14h 07m 19s.xml">
-      <configuration name="CommandProcessorTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CommandProcessorTest_executesCorrectCommand - 2018.08.05 at 15h 03m 38s.xml">
       <configuration name="CommandProcessorTest.executesCorrectCommand" configurationId="JUnit" />
     </history-entry>
@@ -1274,9 +1323,12 @@
     <history-entry file="CommandProcessorTest_doesNothingForNoMatchingCommands - 2018.08.05 at 15h 18m 22s.xml">
       <configuration name="CommandProcessorTest.doesNothingForNoMatchingCommands" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CommandStoreTest - 2018.08.06 at 13h 27m 30s.xml">
+      <configuration name="CommandStoreTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18549000" />
+    <option name="totallyTimeSpent" value="27461000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1288,19 +1340,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1280" height="1055" extended-state="4" />
+    <frame x="0" y="25" width="2560" height="1055" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.34602916" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12529834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32972974" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.21297297" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2627027" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -1308,9 +1360,10 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32972974" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32972974" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32864866" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32864866" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.3299933" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1332,12 +1385,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/data/src/main/java/com/riglerr/data/CommandStore.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/domain/src/main/java/com/riglerr/domain/usecases/CreateRaidAlertUseCase.java</url>
           <line>30</line>
@@ -1395,35 +1442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/src/main/java/com/riglerr/data/repositories/InMemoryAlertRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/src/main/java/com/riglerr/data/interfaces/CommandModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/src/main/java/com/riglerr/data/mappers/MessageContextMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/riglerr/domain/interfaces/UseCase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1449,12 +1467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
-          <folding>
-            <element signature="e#1533#1534#0" expanded="true" />
-            <element signature="e#1566#1567#0" expanded="true" />
-            <element signature="e#1619#1620#0" expanded="true" />
-            <element signature="e#1648#1649#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1485,46 +1497,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.dv8tion/JDA/3.7.1_387/2a6bad5d3e950c4ec4e2f65b035e41b8f016b964/JDA-3.7.1_387-sources.jar!/net/dv8tion/jda/core/hooks/InterfacedEventManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="87" selection-start-line="87" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/src/test/java/com/riglerr/data/CommandProcessorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="144" selection-start-line="144" selection-end-line="144" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#canAddCommand#0;class#CommandProcessorTest#0" />
-            <element signature="method#shouldThrowExceptionIfPrefixIsEmpty#0;class#CommandProcessorTest#0" />
-            <element signature="method#shouldThrowExceptionIfUsecaseIsNull#0;class#CommandProcessorTest#0" />
-            <element signature="method#shouldRejectDupliates#0;class#CommandProcessorTest#0" />
-            <element signature="method#executesCorrectCommand#0;class#CommandProcessorTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/src/main/java/com/riglerr/data/DiscordMessager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1535,24 +1511,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/src/main/java/com/riglerr/data/CommandStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="method#addCommand#0;class#CommandStore#0" />
-            <element signature="method#verifyCommand#0;class#CommandStore#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/riglerr/domain/usecases/CreateRaidAlertUseCase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="9" column="43" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/src/main/java/com/riglerr/data/repositories/InMemoryAlertRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/test/java/com/riglerr/domain/util/AlertMessageParserTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/riglerr/domain/util/AlertMessageParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+          <folding>
+            <element signature="e#2014#2015#0" expanded="true" />
+            <element signature="e#2071#2072#0" expanded="true" />
+            <element signature="method#getTime#0;class#AlertMessageParser#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/src/main/java/com/riglerr/data/interfaces/CommandModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1566,15 +1564,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/presentation/src/main/java/com/riglerr/presentation/discord/RaidLeaderApplication.java">
+    <entry file="file://$PROJECT_DIR$/data/src/main/java/com/riglerr/data/command/CommandRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-211">
-          <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        <state relative-caret-position="105">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-            <element signature="e#1078#1079#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/src/main/java/com/riglerr/data/mappers/MessageContextMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/src/main/java/com/riglerr/data/DiscordMessager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/src/test/java/com/riglerr/data/command/CommandStoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="122" column="62" selection-start-line="122" selection-start-column="62" selection-end-line="122" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/src/main/java/com/riglerr/data/command/CommandStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#addCommand#0;class#CommandStore#0" />
+            <element signature="method#executeCommand#0;class#CommandStore#0" />
+            <element signature="method#makeCommandKey#0;class#CommandStore#0" />
+            <element signature="method#verifyCommand#0;class#CommandStore#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presentation/src/main/java/com/riglerr/presentation/discord/RaidLeaderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="21" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/riglerr/domain/entities/Alert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
