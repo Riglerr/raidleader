@@ -3,7 +3,7 @@ package com.riglerr.domain.usecases;
 import com.riglerr.domain.entities.Alert;
 import com.riglerr.domain.entities.MessageContext;
 import com.riglerr.domain.interfaces.AlertRepository;
-import com.riglerr.domain.interfaces.Messager;
+import com.riglerr.domain.interfaces.Messenger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.ArgumentCaptor;
@@ -15,14 +15,14 @@ import static org.mockito.Mockito.*;
 public class CreateRaidAlertUseCaseTests {
 
     private AlertRepository repo = mock(AlertRepository.class);
-    private Messager messager = mock(Messager.class);
+    private Messenger messenger = mock(Messenger.class);
     private CreateRaidAlertUseCase UC;
     private Alert expectedAlert;
     private MessageContext messageContext;
 
     @BeforeEach
     void beforeEachCreateNewUseCaseObject() {
-        UC  = new CreateRaidAlertUseCase(repo, messager);
+        UC  = new CreateRaidAlertUseCase(repo, messenger);
     }
 
     @Test
@@ -42,10 +42,15 @@ public class CreateRaidAlertUseCaseTests {
         buildAlertAndContext(inputString);
         UC.execute(messageContext);
 
-        var actualMessage = captureArgumentForMessagerSendMessage();
+        var actualMessage = captureArgumentForMessengerSendMessage();
 
         String expectedSuccessMessage = "Alert successfully created.";
-        assertEquals(expectedSuccessMessage, actualMessage);
+        long expectedGuildId = messageContext.getGuidId();
+        long expectedChannelId = messageContext.getChannelId();
+
+        assertEquals(expectedSuccessMessage, actualMessage.getText());
+        assertEquals(expectedGuildId, actualMessage.getGuidId());
+        assertEquals(expectedChannelId, actualMessage.getChannelId());
     }
 
     private void buildAlertAndContext(String message) throws Exception {
@@ -59,9 +64,9 @@ public class CreateRaidAlertUseCaseTests {
         return argument.getValue();
     }
 
-    private String captureArgumentForMessagerSendMessage() {
-        ArgumentCaptor<String> argument = ArgumentCaptor.forClass(String.class);
-        verify(messager).sendMessage(argument.capture());
+    private MessageContext captureArgumentForMessengerSendMessage() {
+        ArgumentCaptor<MessageContext> argument = ArgumentCaptor.forClass(MessageContext.class);
+        verify(messenger).sendMessage(argument.capture());
         return argument.getValue();
     }
 }

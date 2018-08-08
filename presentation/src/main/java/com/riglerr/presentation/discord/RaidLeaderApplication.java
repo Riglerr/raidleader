@@ -1,7 +1,7 @@
 package com.riglerr.presentation.discord;
 
 import com.riglerr.data.command.CommandStore;
-import com.riglerr.data.DiscordMessager;
+import com.riglerr.data.DiscordMessenger;
 import com.riglerr.data.repositories.InMemoryAlertRepository;
 import com.riglerr.domain.interfaces.AlertRepository;
 import com.riglerr.domain.usecases.CreateRaidAlertUseCase;
@@ -15,14 +15,14 @@ public class RaidLeaderApplication {
     private JDA bot;
     private JDABuilder botBuilder;
     private AlertRepository alertRepository;
-    private DiscordMessager messager;
+    private DiscordMessenger messenger;
 
     public static void main(String[] args) {
         try {
             new RaidLeaderApplication(args[0])
                     .initializeRepositories()
                     .start()
-                    .initializeMessager()
+                    .initializeMessenger()
                     .addModules();
 
         } catch (Exception e) {
@@ -39,20 +39,21 @@ public class RaidLeaderApplication {
         return this;
     }
 
-    private RaidLeaderApplication initializeMessager() {
-        messager = new DiscordMessager(bot);
+    private RaidLeaderApplication initializeMessenger() {
+        messenger = new DiscordMessenger(bot);
         return this;
     }
 
     private RaidLeaderApplication addModules() {
         CommandStore commandStore = new CommandStore();
         addRaidAlertModules(commandStore);
-        botBuilder.addEventListener(new MessageListener(commandStore, messager));
+//        botBuilder.addEventListener(new MessageListener(commandStore));
+        botBuilder.addEventListener(new Module());
         return this;
     }
 
     private void addRaidAlertModules(CommandStore commandStore) {
-        var createUseCase = new CreateRaidAlertUseCase(alertRepository, messager);
+        var createUseCase = new CreateRaidAlertUseCase(alertRepository, messenger);
         commandStore.addCommand("!", "raidalert", "add", createUseCase);
     }
 
